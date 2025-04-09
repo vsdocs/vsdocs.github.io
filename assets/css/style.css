@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 40px auto;
+    max-width: 650px;
+    padding: 0 10px;
+    color: #333;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 2em;
+}
+
+li h3 a {
+    color: #333; /* Keep post titles less distracting */
+}
+
+li h3 a:hover {
+    color: #007bff;
+}
+
+.pagination {
+    margin-top: 2em;
+    border-top: 1px solid #eee;
+    padding-top: 1em;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space out prev/next links */
+}
+
+.pagination a, .pagination span {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination .disabled {
+    color: #aaa;
+    border-color: #eee;
+    cursor: default;
+}
+
+.pagination .page_number {
+    border: none; /* No border for the page number text */
+}
+
+article h1 {
+  margin-bottom: 0.2em;
+}
+
+article p small {
+  color: #666;
+  display: block; /* Give it its own line */
+  margin-bottom: 1.5em;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 2em 0;
+}
