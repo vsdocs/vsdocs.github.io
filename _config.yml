@@ -1,0 +1,11 @@
+title: My Minimal Blog
+description: A simple blog.
+paginate: 5 # Number of posts per page
+paginate_path: "/page/:num/" # URL structure for pagination
+
+# Basic GitHub Pages configuration
+# Exclude Gemfile and Gemfile.lock from the build
+exclude: [Gemfile, Gemfile.lock]
+
+# Use the default markdown processor
+markdown: kramdown
