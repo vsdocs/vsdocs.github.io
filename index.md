@@ -3,5 +3,5 @@ title: Home
 layout: home
 nav_exclude: true
 ---
-Hallo World
+Hello World
 ----
