@@ -1,3 +1,7 @@
+---
+title: Communication
+layout: home
+---
 # Send a complete, finished message right away.
 
 * This allows the recipient to immediately understand what’s being asked without being interrupted multiple times.
